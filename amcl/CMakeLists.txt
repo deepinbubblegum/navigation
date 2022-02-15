@@ -115,6 +115,10 @@ install(DIRECTORY examples/
     DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/examples
 )
 
+install(DIRECTORY launch/
+    DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/launch
+)
+
 ## Configure Tests
 if(CATKIN_ENABLE_TESTING)
   find_package(rostest REQUIRED)
